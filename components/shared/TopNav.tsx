@@ -344,6 +344,7 @@ export function TopNav({ role, showTicker = true }: TopNavProps) {
         setLanguage(saved);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const effectiveUser = currentUser || (mounted ? getSession() : null);

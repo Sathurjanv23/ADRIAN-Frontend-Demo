@@ -142,7 +142,7 @@ export function AuthGuard({ children, allowedRoles, redirectTo = '/login', allow
     }
 
     setStatus('authorized');
-  }, [isAuthenticated, currentUser?.id, currentUser?.role, allowedRoles, redirectTo, allowGuestCommander, login, router]);
+  }, [isAuthenticated, currentUser, allowedRoles, redirectTo, allowGuestCommander, login, router]);
 
   if (status === 'checking') {
     return (

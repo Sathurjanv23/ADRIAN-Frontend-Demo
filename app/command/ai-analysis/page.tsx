@@ -339,6 +339,7 @@ Risk Factors: ${analysis.riskFactors.join(', ')}`;
           <div className="flex gap-4 items-start">
             {imagePreviewUrl && (
               <div className="w-24 h-24 rounded-lg overflow-hidden border border-em-border flex-shrink-0 bg-black">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={imagePreviewUrl} alt="Visual Evidence" className="w-full h-full object-cover" />
               </div>
             )}
@@ -1288,6 +1289,7 @@ export default function AIAnalysisPage() {
                       {activeImagePreview ? (
                         <div className="relative rounded-xl overflow-hidden border border-er-blue/40 bg-black/60 group">
                           <div className="aspect-video w-full max-h-52 overflow-hidden flex items-center justify-center bg-black">
+                            {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
                               src={activeImagePreview}
                               alt="Visual Evidence"
