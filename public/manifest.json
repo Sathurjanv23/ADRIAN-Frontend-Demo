@@ -1,0 +1,58 @@
+{
+  "name": "ADRIAN — AI Disaster Response & Intelligent Assistance Network",
+  "short_name": "ADRIAN",
+  "description": "AI-powered disaster management platform turning citizen emergency reports into coordinated rescue and relief operations in real-time.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F5F6FA",
+  "theme_color": "#D32F2F",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["emergency", "utilities", "safety"],
+  "icons": [
+    { "src": "/icons/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot-wide.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ADRIAN home — real-time incident map and emergency reporting"
+    },
+    {
+      "src": "/screenshots/screenshot-narrow.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ADRIAN home on mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Report Emergency (SOS)",
+      "short_name": "SOS",
+      "description": "File a new emergency report",
+      "url": "/citizen/sos",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Command Dashboard",
+      "short_name": "Command",
+      "description": "Open the command center dashboard",
+      "url": "/command",
+      "icons": [{ "src": "/icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ]
+}
